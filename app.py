@@ -13,10 +13,10 @@ app.config.from_object(__name__)
 CORS(app, resources={r'/*': {'origins': '*'}})
 
 
-# sanity check route
+# sample route
 @app.route('/hello', methods=['GET'])
-def ping_pong():
-    return jsonify('hi!')
+def hello_world():
+    return jsonify('hi world!')
 
 
 if __name__ == '__main__':
