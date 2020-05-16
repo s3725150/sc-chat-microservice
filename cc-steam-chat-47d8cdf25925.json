@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "cc-steam-chat",
+  "private_key_id": "47d8cdf25925a56669f0c5cf332871c3e188c9f6",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDB3bDhQSrf8q71\nxDqLi1U1RXEkBlf1Z3bXh2AXArddlq87zD+7ZtIM9oCk8eVxqznAOhc3mGb7eHt6\nysuDwrMs6jcGwMEZ/RUdeuXpM2kG1/zE1KBy5zDC2pdFEGIUJPMQhu95XHFEb27e\nc/kojkMox05iCIbHyM/B7npxRsZUltjtaiFE/G4RMSevs8ZOI+BeC7z4f3Mtymq7\nX+HGPBNhHk8tk7ydVnDVjreOC4xj8ktlTCsHsZB105cegte5STWhC2OEEFSaOkmg\nokC36K6sCkYZUN4zlwdcwYtm2N9CF7EpVVVVVeXmaO9RVMiBpyGOGb7S9wf4DlDR\nuMifBEu3AgMBAAECggEABbwV53stBN62SVDal/Nrdh3cNTRT7NsbedvFZxR9CQLf\n0cVKVD+k2EzGaffFgAjWKvQqC9Yl0hSECR3A+Q7qAE8hWnuDNPz2jfAOSkk88Uo/\nP3dPcNPJv+y/mg9QpIGK8PROVtG0OpeQLWOBZiOhXdzN/QvaQBXEh4nNaOJo/Mdb\nQs0Ygj5Lq7uFG0vNy1AfOvGethZ80AUMR9ASSF/WrLInDXnKTUxDzfWby/BYSaiY\ndxWyU/nP7WWRSM+UbKhBf0JTYyhMi8jRyOrSobfkP2PBNdz+NogDNfhlYQAHyU23\nl5DRBN9cJeA3wrJ5SHWJcUQAuuAFqSyRld8WqaKNsQKBgQDtPa0s+cnlrgTegXrT\ncp8bY161D+MFKfeGhkDoLIoJozU//QgiMe7fo7Og4USnYcbykZqCFokJeTfXF3Dy\nF3YZ14XTJcLp33qxqSZhs3lDaF4GIXBjJC635TkKxYYpuxiikwfncroXvZnoEewR\nJzub+bF+UpRDz9OUWH4c2BzGjwKBgQDRMgB83MGOU3Up32MxeHR6uLS2H43kqY4Q\nnoYSF1IN2VDfghDfYwjTG11Px+zDcWJZHwm+bPfZW/4J4OajFTU5+6cXejTrIfPV\nuserFeq/Z3JO20RQSk8Gzgfo/qEm5DrzPTWw1yRhRQ4ybYMa6r16ks/UOSuztXVT\nrK0jIMp8WQKBgAMhmkSKs3h9mIDbUqSx0ZnJ8PkQ0Z1C1YqIARlPZS8FYXGLxGy3\nHgEDpx5Let1+s+KFu3VWGM7wM6V6ILqBRsTGjHSh/fWaRoNLyT7m4IXcPcl07YfR\ndXBl7R/QRZoNZyDWMfeDEyO3E+31NplvXCEN5aLWMjDG8HL3zApTa+XPAoGBAIVW\nRZFQc95vu4IQ7Hyftj5ydFyRCDPzDqXxJKtrSdWh6jZMBM0dpoZILtWnLHX2UyVS\n7zb85Y0ZYXaSbu8LmX13tSz1q70jSvOztYiK07FkEivI/mXetzgzIj+T7MuJNTnM\njehFeN620TG7M5F4hYUXBnjSZ9SHmFzY9xIo2GchAoGBALuSPVHTuJX9ABALbUiT\n07xxTQlxeShs+7hi3nzSNE/rg22AoHYkq21xwMaq0bPvY11Ofn6c49bUm8T5iqQV\nJhS7MG2ocgUS+Ctp/UKt57Ga2IP6d4ZvXlD4RF3ec6ybohAgUbiQTHj2ZW/GO+Nd\nzS2RrSt/eXSSdwApLXtI76Uu\n-----END PRIVATE KEY-----\n",
+  "client_email": "steamchat@cc-steam-chat.iam.gserviceaccount.com",
+  "client_id": "102454474337567191200",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/steamchat%40cc-steam-chat.iam.gserviceaccount.com"
+}
