@@ -33,7 +33,7 @@ def health_check2():
     return jsonify('success')
 
 # Main chatRoom route
-@app.route('/add_chatRoom', methods=['POST'])
+@app.route('/chat/add_chatRoom', methods=['POST'])
 def add_chatRoom():
     appId = request.form.get("appId")
     doc_ref = db.collection('chatRooms').document(appId)
@@ -81,7 +81,7 @@ def add_chatRoom():
     updateChat.clear()
     return jsonify(allDocs)
 # realtime updates to the chat
-@app.route('/updateChat', methods=['POST'])
+@app.route('/chat/updateChat', methods=['POST'])
 def update_chat():
     global allDocs
     global updateChat
@@ -91,7 +91,7 @@ def update_chat():
 
 
 # add message to database
-@app.route('/sendMessage', methods=['POST'])
+@app.route('/chat/sendMessage', methods=['POST'])
 def sendMessage():
     appId = request.form.get("appId")
     steamId = request.form.get("steamId")
