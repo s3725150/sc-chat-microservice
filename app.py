@@ -21,6 +21,17 @@ CORS(app)
 cors = CORS(app, resources={r'/*': {'origins': '*'}})
 allDocs = {}
 updateChat = threading.Event()
+
+# Health Check
+@app.route('/')
+def health_check():
+    return jsonify('success')
+
+# Health Check
+@app.route('/health')
+def health_check2():
+    return jsonify('success')
+
 # Main chatRoom route
 @app.route('/add_chatRoom', methods=['POST'])
 def add_chatRoom():
