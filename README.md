@@ -29,7 +29,7 @@ make build-docker
 ```
 Push container to Container Registry
 ```
-make build-docker
+make push-docker
 ```
 Apply changes to the GKE cluster
 ```
