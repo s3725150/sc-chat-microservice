@@ -27,7 +27,7 @@ spec:
     spec:
       containers:
       - name: chat-ms
-        image: gcr.io/cc-steam-chat/chat-ms:latest
+        image: gcr.io/steamchat/chat-ms:latest
         ports:
         - containerPort: 5000
         readinessProbe:

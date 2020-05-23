@@ -5,7 +5,7 @@ import threading
 import time
 
 # configuration
-DEBUG = True
+DEBUG = False
 
 # instantiate the app
 app = Flask(__name__)
@@ -14,7 +14,7 @@ app.config.from_object(__name__)
 
 # Firestore init
 # instantiate client
-db = firestore.Client.from_service_account_json('cc-steam-chat-47d8cdf25925.json')
+db = firestore.Client()
 
 # enable CORS
 CORS(app)
