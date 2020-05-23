@@ -21,3 +21,17 @@ source env/bin/activate OR
 ```
 python app.py
 ```
+
+### Deployment
+Build Docker container
+```
+make build-docker
+```
+Push container to Container Registry
+```
+make push-docker
+```
+Apply changes to the GKE cluster
+```
+kubectl apply -f deployment/deployment.yaml
+```
