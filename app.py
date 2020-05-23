@@ -95,12 +95,16 @@ def update_chat():
 def sendMessage():
     appId = request.form.get("appId")
     steamId = request.form.get("steamId")
+    avatar_url = request.form.get("avatar_url")
+    name = request.form.get("name")
     message = request.form.get("message")
     room_ref = db.collection('chatRooms').document(appId)
     ts = str(int(time.time()))
     message_ref = room_ref.collection('messages').document(ts)
     message_ref.set({
         'steamId': steamId,
+        'avatar_url': avatar_url,
+        'name': name,
         'message': message,
         'timestamp': ts,
         'displayTime': firestore.SERVER_TIMESTAMP
